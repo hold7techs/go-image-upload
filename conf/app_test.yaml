@@ -1,0 +1,11 @@
+app:
+  name: "go-image-upload"
+  description: "Image upload processing HTTP service implemented by Go language"
+  version: 0.1.0
+secret:
+  key: "hey_tkstorm"
+paths:
+  image_root: "/tmp/img_upload"
+host:
+  image_upload: "https://imgupload.tkstorm.com"
+  image_show: "https://tkstorm.com/imgshow"
